@@ -1,0 +1,14 @@
+Digraph TD { rankdir ="LR" 
+{node  [margin=0.025 fontcolor=blue style=filled ] 
+ "PIO" [shape=box fillcolor= steelblue1 tooltip="Prisindeks for investeringer i offentlige tjenester"  margin=0.025 fontcolor=blue style = filled  label=<<TABLE BORDER='0' CELLBORDER = '0' style = "filled"  > <TR><TD >PIO</TD></TR> </TABLE>> ]
+"IO" [shape=box fillcolor= steelblue1 tooltip="Investeringer i offentlige tjenester"  margin=0.025 fontcolor=blue style = filled  label=<<TABLE BORDER='0' CELLBORDER = '0' style = "filled"  > <TR><TD >IO</TD></TR> </TABLE>> ]
+"IMO" [shape=box fillcolor= Turquoise tooltip="Investeringer i maskiner, transportmidler og inventar i erhverv o, for definition af erhverv o jf. fIbo"  margin=0.025 fontcolor=blue style = filled  label=<<TABLE BORDER='0' CELLBORDER = '0' style = "filled"  > <TR><TD >IMO</TD></TR> </TABLE>> ]
+"FIMO" [shape=box fillcolor= steelblue1 tooltip="Investeringer i maskiner, transportmidler og inventar i erhverv o, for definition af erhverv o jf. fIbo"  margin=0.025 fontcolor=blue style = filled  label=<<TABLE BORDER='0' CELLBORDER = '0' style = "filled"  > <TR><TD >FIMO</TD></TR> </TABLE>> ]
+"PIMO" [shape=box fillcolor= steelblue1 tooltip="Prisindeks for fImo, for definition af erhverv o jf. fIbo"  margin=0.025 fontcolor=blue style = filled  label=<<TABLE BORDER='0' CELLBORDER = '0' style = "filled"  > <TR><TD >PIMO</TD></TR> </TABLE>> ] 
+} 
+"PIMO" -> "IMO"[ style = filled   ]
+"IO" -> "PIO"[ style = filled   ]
+"IMO" -> "IO"[ style = filled   ]
+"FIMO" -> "IMO"[ style = filled   ]
+ label = "IMO";
+}

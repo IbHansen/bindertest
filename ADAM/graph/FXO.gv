@@ -1,0 +1,7 @@
+Digraph TD { rankdir ="LR" 
+{node  [margin=0.025 fontcolor=blue style=filled ] 
+  
+} 
+
+ label = "FXO";
+}

@@ -1,0 +1,19 @@
+Digraph TD { rankdir ="LR" 
+{node  [margin=0.025 fontcolor=blue style=filled ] 
+ "FY" [shape=box fillcolor= Turquoise margin=0.025 fontcolor=blue style=filled   label=<<TABLE BORDER='1' CELLBORDER = '1'  > <TR><TD COLSPAN = '5' TOOLTIP="Bruttonationalproduktet" href="bogus">FY</TD></TR><TR><TD ALIGN='LEFT'>Per</TD><TD>2018</TD><TD>2019</TD><TD>2020</TD><TD>2021</TD></TR><TR TOOLTIP="Base" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Base" href="bogus">Base</TD><TD ALIGN='RIGHT'>2,030,595.41</TD><TD ALIGN='RIGHT'>2,028,206.45</TD><TD ALIGN='RIGHT'>2,043,317.43</TD><TD ALIGN='RIGHT'>2,061,846.87</TD></TR>
+<TR TOOLTIP="Last" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Last" href="bogus">Last</TD><TD ALIGN='RIGHT'>2,030,208.47</TD><TD ALIGN='RIGHT'>2,027,321.94</TD><TD ALIGN='RIGHT'>2,041,943.93</TD><TD ALIGN='RIGHT'>2,060,050.66</TD></TR>
+<TR TOOLTIP="Diff" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Diff" href="bogus">Diff</TD><TD ALIGN='RIGHT'>-386.94</TD><TD ALIGN='RIGHT'>-884.51</TD><TD ALIGN='RIGHT'>-1,373.50</TD><TD ALIGN='RIGHT'>-1,796.21</TD></TR><TR><TD COLSPAN = '5'> % Explained by</TD></TR><TR TOOLTIP="Prisen p&#229; Y" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Prisen p&#229; Y" href="bogus">PY(-1)</TD><TD ALIGN='RIGHT'>-0.00</TD><TD ALIGN='RIGHT'>99.44</TD><TD ALIGN='RIGHT'>157.86</TD><TD ALIGN='RIGHT'>187.85</TD></TR>
+<TR TOOLTIP="Eksport af varer og tjenester i alt" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Eksport af varer og tjenester i alt" href="bogus">FE</TD><TD ALIGN='RIGHT'>42.79</TD><TD ALIGN='RIGHT'>53.76</TD><TD ALIGN='RIGHT'>61.08</TD><TD ALIGN='RIGHT'>69.64</TD></TR>
+<TR TOOLTIP="Investeringer i alt" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Investeringer i alt" href="bogus">FI</TD><TD ALIGN='RIGHT'>32.42</TD><TD ALIGN='RIGHT'>35.31</TD><TD ALIGN='RIGHT'>35.72</TD><TD ALIGN='RIGHT'>35.11</TD></TR>
+<TR TOOLTIP="Privat forbrug i alt" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Privat forbrug i alt" href="bogus">FCP</TD><TD ALIGN='RIGHT'>65.32</TD><TD ALIGN='RIGHT'>47.58</TD><TD ALIGN='RIGHT'>39.31</TD><TD ALIGN='RIGHT'>29.96</TD></TR>
+<TR TOOLTIP="Prisen p&#229; M" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Prisen p&#229; M" href="bogus">PM(-1)</TD><TD ALIGN='RIGHT'>-0.00</TD><TD ALIGN='RIGHT'>-0.00</TD><TD ALIGN='RIGHT'>-0.00</TD><TD ALIGN='RIGHT'>-0.00</TD></TR>
+<TR TOOLTIP="Offentligt forbrug" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Offentligt forbrug" href="bogus">FCO</TD><TD ALIGN='RIGHT'>-3.78</TD><TD ALIGN='RIGHT'>-3.60</TD><TD ALIGN='RIGHT'>-3.56</TD><TD ALIGN='RIGHT'>-3.43</TD></TR>
+<TR TOOLTIP="Import af varer og tjenester i alt" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Import af varer og tjenester i alt" href="bogus">FM</TD><TD ALIGN='RIGHT'>-36.75</TD><TD ALIGN='RIGHT'>-31.82</TD><TD ALIGN='RIGHT'>-29.85</TD><TD ALIGN='RIGHT'>-27.74</TD></TR>
+<TR TOOLTIP="Prisindeks for investeringer" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Prisindeks for investeringer" href="bogus">PI(-1)</TD><TD ALIGN='RIGHT'>-0.00</TD><TD ALIGN='RIGHT'>-14.37</TD><TD ALIGN='RIGHT'>-23.88</TD><TD ALIGN='RIGHT'>-28.69</TD></TR>
+<TR TOOLTIP="Prisen p&#229; E" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Prisen p&#229; E" href="bogus">PE(-1)</TD><TD ALIGN='RIGHT'>-0.00</TD><TD ALIGN='RIGHT'>-23.25</TD><TD ALIGN='RIGHT'>-37.83</TD><TD ALIGN='RIGHT'>-45.46</TD></TR>
+<TR TOOLTIP="Nationalregnskabets forbrugerprisindeks" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Nationalregnskabets forbrugerprisindeks" href="bogus">PCP(-1)</TD><TD ALIGN='RIGHT'>-0.00</TD><TD ALIGN='RIGHT'>-25.06</TD><TD ALIGN='RIGHT'>-41.53</TD><TD ALIGN='RIGHT'>-50.77</TD></TR>
+<TR TOOLTIP="Prisen p&#229; Co" href="bogus"><TD ALIGN='LEFT' TOOLTIP="Prisen p&#229; Co" href="bogus">PCO(-1)</TD><TD ALIGN='RIGHT'>-0.00</TD><TD ALIGN='RIGHT'>-37.96</TD><TD ALIGN='RIGHT'>-57.19</TD><TD ALIGN='RIGHT'>-66.23</TD></TR> </TABLE>> ] 
+} 
+"FY" -> "FY" [penwidth=0.5]
+ label = "FY explained";
+}
