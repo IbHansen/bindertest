@@ -1,1 +1,1 @@
-FROM ibhansen/modelflow:latest   
+FROM ibhansen/modelflow:2300   
