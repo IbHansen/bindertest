@@ -1,4 +1,4 @@
-FROM ibhansen/modelflow:2300   
+FROM ibhansen/modelflow:latest   
 # Make sure the contents of our repo are in ${HOME} 
 COPY . ${HOME}
 
